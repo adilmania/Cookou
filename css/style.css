@@ -3,6 +3,10 @@ body {
     font-family: 'Dancing Script', cursive;
 }
 
+.input{
+  font-family: 'Dancing Script', cursive;
+}
+
 .navbar-item {
     line-height: 5;
 }
@@ -45,3 +49,18 @@ body {
       transform: translateY(-15px);
     }
   }
+
+  .map-responsive {
+    overflow:hidden;
+    padding-bottom:95%;
+    position:relative;
+    height:0;
+    }
+    
+    .map-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
