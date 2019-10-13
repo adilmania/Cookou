@@ -50,9 +50,14 @@ body {
     }
   }
 
+  .my_img2 {
+    height: 80%;
+    width: 80%;
+  }
+  
   .map-responsive {
     overflow:hidden;
-    padding-bottom:95%;
+    padding-bottom:100%;
     position:relative;
     height:0;
     }
